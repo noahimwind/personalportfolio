@@ -602,6 +602,12 @@ img{
     margin-right: var(--mb-0-25);
 }
 
+/* active modal */
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
+
 :root{
     --header-height: 3rem;
 
