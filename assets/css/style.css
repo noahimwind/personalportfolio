@@ -257,6 +257,15 @@ img{
     color: var(--first-color);
 }
 
+.button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: #FFF;
+}
+
 .button--link:hover{
     background-color: transparent;
     color: var(--first-color-alt);
@@ -666,6 +675,35 @@ img{
 .swiper-button-next,
 .swiper-pagination-bullet{
     outline: none;
+}
+
+/* project */
+.project{
+    text-align: center;
+}
+
+.project__bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description{
+    color: #FFF;
+}
+
+.project__img{
+    width: 232px;
+    justify-self: center;
 }
 
 :root{
