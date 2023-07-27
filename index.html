@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/cdn.jsdelivr.net_npm_swiper@10.0.4_swiper-bundle.min.css"
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     </head>
 
     <body>
@@ -550,13 +550,13 @@
             <section class="portfolio section" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent</span>
-                <div class="portfolio__container container">
-                    <div>
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper">
                         <!-- portfolio 1 -->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/images/IMG_9670.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">SHoot 1</h3>
+                                <h3 class="portfolio__title">Shoot 1</h3>
                                 <p class="portfolio__description">bla bla bla</p>
                                 <a href="#" class="button button--flex button--small portfolio__button">
                                     Demo 
@@ -565,7 +565,7 @@
                             </div>
                         </div>
                         <!-- portfolio 2 -->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/images/IMG_9670.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">SHoot 2</h3>
@@ -577,7 +577,7 @@
                             </div>
                         </div>
                         <!-- portfolio 3 -->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/images/IMG_9670.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">SHoot 3</h3>
@@ -589,10 +589,17 @@
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
         </main>
         <script src="assets/js/main.js"></script>
-        <script src="assets/js/cdn.jsdelivr.net_npm_swiper@10.0.4_swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     </body>
 </html>

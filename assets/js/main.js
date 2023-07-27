@@ -84,3 +84,20 @@ modalCloses.forEach((modalClose) =>{
         })
     })
 })
+
+/* swiper */
+document.addEventListener("DOMContentLoaded", function () {
+    // Initialisiere den Swiper
+    var mySwiper = new Swiper(".swiper", {
+    loop: true,
+    // Weitere Optionen hier einfügen...
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    });
+});
