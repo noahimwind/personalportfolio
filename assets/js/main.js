@@ -88,7 +88,7 @@ modalCloses.forEach((modalClose) =>{
 /* swiper */
 document.addEventListener("DOMContentLoaded", function () {
     // Initialisiere den Swiper
-    var mySwiper = new Swiper(".swiper", {
+    let mySwiper = new Swiper(".swiper", {
     loop: true,
     // Weitere Optionen hier einfügen...
     navigation: {
@@ -99,6 +99,8 @@ document.addEventListener("DOMContentLoaded", function () {
         el: ".swiper-pagination",
         clickable: true,
     },
+    slidesPerView: 1,
+    centeredSlides: true,
     });
 });
 

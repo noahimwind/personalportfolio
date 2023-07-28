@@ -791,7 +791,8 @@ body.dark-theme{
 
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--text-color-light);
-=======
+}
+
 .contact__icon{
     font-size: 2rem;
     color: var(--first-color);
