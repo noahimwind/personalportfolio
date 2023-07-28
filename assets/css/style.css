@@ -677,7 +677,7 @@ img{
     outline: none;
 }
 
-/* project */
+/* =============== PROJECT =============== */
 .project{
     text-align: center;
 }
@@ -705,6 +705,17 @@ img{
     width: 232px;
     justify-self: center;
 }
+
+/* =============== CONTACT =============== */
+.contact__container{
+    row-gap: 3rem;
+}
+
+.contact__information{
+    display: flex;
+    margin-bottom: var(--mb-2);
+}
+
 
 :root{
     --header-height: 3rem;
